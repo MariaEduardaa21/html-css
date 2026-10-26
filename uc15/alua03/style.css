@@ -1,0 +1,14 @@
+body{
+    background-image: url('thumb-1920-1368473.jpeg');
+    background-size:cover;
+     margin:0;
+}
+.bloco1{
+    margin-top:50px;
+    margin-left:50px;
+    background-color:rgb(151, 96, 187);
+    background-image:ulr('coraline-cartoon-wallpaper-preview.jpg');
+    background-size:auto;
+   height:300PX;
+   WIDTH:300px;
+}

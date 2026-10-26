@@ -1,0 +1,114 @@
+body{
+      background-color:rgb(96, 233, 192)
+
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+  
+}
+
+h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+  
+}
+
+.primeiroconteudo {
+  display: flex;
+  align-items: flex-start; /* imagem alinhada com o topo do texto */
+  gap:300px;
+}
+
+.texto {
+  flex: 1; /* o texto ocupa o espaço que sobrar */
+}
+
+.primeiraimagem {
+  width: 500px;
+  object-fit: cover;
+  border-radius: 500px;
+  margin-right: 20%; /* afasta a imagem da borda direita */
+}
+.quintaimagem {
+  width: 300px;
+  margin-right: 20%; /* afasta a imagem da borda direita */
+}
+  #galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10%;
+        text-align: center;
+      
+      }
+
+.terceiraimagem {
+  width: 300px;
+  margin-right: 20%; /* afasta a imagem da borda direita */
+}
+#imagens{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10%;
+        text-align: center;
+      }
+  .sextaimagem{
+  width: 300px;
+  margin-right: 20%; /* afasta a imagem da borda direita */
+}
+
+#imagens{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10%;
+        text-align: center;
+      }
+
+  .quartaimagem{
+    width: 700px;
+   
+  }
+
+  .segundaimagem{
+    width: 700px;
+  /* afasta a imagem da borda direita */
+  }
+
+  #imagens{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10%;
+        text-align: center;
+  }
+
+
+  
+  #texto2 {
+    
+    text-align: center;
+    margin-right: 300px;
+ /* o texto ocupa o espaço que sobrar */
+  }
+
+ #galeria2{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+
+        text-align: center;
+  }
+  
+.setimaimagem{
+  width: 900px;
+  display: block;
+  margin-left: auto;
+}
