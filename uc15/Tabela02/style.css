@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border: 10px;
+    border-collapse: collapse;
+    font-size: 15px;
+    border: 2px solid;
+}
+
+
+th {
+    background-color: #3d3b3b;
+    color: white;
+}
+
+td {
+    background-color: #191919;
+    color: white;
+}
+
+.status {
+    color: #32e875;
+}

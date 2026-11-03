@@ -1,0 +1,25 @@
+body{
+ margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-family: "Poppins", sans-serif;
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px;
+    text-align: left;
+}
+
+    th {
+    background-color: #eeeeee;
+    font-weight: bold;
+}
