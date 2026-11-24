@@ -1,0 +1,201 @@
+
+/* CONFIGURAÇÃO GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3b3b3b;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* CAIXA DO FORMULÁRIO */
+
+.formulario {
+    background-color: white;
+    width: 471px;
+    margin-top: 38px;
+    border-radius: 7px 7px 0 0;
+    overflow: hidden;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    padding: 25px 32px;
+    border-bottom: 1px solid #e1e4e9;
+}
+
+.cabecalho h1 {
+    font-size: 23px;
+    color: #111;
+    margin-bottom: 3px;
+}
+
+.cabecalho p {
+    font-size: 11px;
+    line-height: 16px;
+    color: #333;
+}
+
+/* FORMULÁRIO */
+
+form {
+    padding: 25px 32px;
+}
+
+/* NOME COMPLETO */
+
+.campo {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 22px;
+}
+
+.campo label {
+    width: 130px;
+    font-size: 11px;
+    margin-top: 8px;
+    color: #333;
+}
+
+.nomes {
+    display: flex;
+    gap: 5px;
+    flex: 1;
+}
+
+.nomes div {
+    flex: 1;
+}
+
+.nomes input {
+    width: 100%;
+    height: 26px;
+    border: 1px solid #cbd0da;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.nomes small {
+    display: block;
+    font-size: 9px;
+    color: #555;
+    margin-top: 6px;
+}
+
+
+
+.campo-reserva {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 22px;
+}
+
+.campo-reserva label {
+    width: 130px;
+    flex-shrink: 0;
+    font-size: 11px;
+    color: #333;
+}
+
+.campo-reserva input,
+.campo-reserva select,
+.campo-reserva textarea {
+    width: 100%;
+    height: 26px;
+    border: 1px solid #cbd0da;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #333;
+    background-color: white;
+}
+
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #8aa9d6;
+}
+
+
+.campo-reserva textarea {
+    resize: vertical;
+    min-height: 26px;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    margin: 25px 0;
+}
+
+
+
+.titulo-reserva {
+    font-size: 11px;
+    color: #333;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 25px;
+}
+
+
+
+.botao {
+    border-top: 1px solid #eeeeee;
+    padding: 19px 0 25px;
+    text-align: center;
+    margin: 0 -32px -25px;
+}
+
+.botao button {
+    background-color: #16b95c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 113px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.botao button:hover {
+    background-color: #119b4c;
+}
+
+
+
+@media (max-width: 500px) {
+
+    .formulario {
+        width: 95%;
+    }
+
+    .campo,
+    .campo-reserva {
+        gap: 10px;
+    }
+
+    .campo label,
+    .campo-reserva label {
+        width: 115px;
+    }
+
+}
+

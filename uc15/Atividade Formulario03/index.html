@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vale.css">
+    <title>Vale-Presentes</title>
+</head>
+<body>
+
+<form action="#" method="post">
+
+    <h1>Vale-Presentes</h1>
+    <p>Este vale-presentes será enviado para o destinatário após o seu pedido ter sido pago.</p>
+
+    <div class="campo">
+        <span class="titulo-campo">Seu Nome:</span>
+        <div class="grupo">
+            <div class="sub">
+                <input type="text" name="nome" size="10">
+                <small>Nome</small>
+            </div>
+            <div class="sub">
+                <input type="text" name="sobrenome" size="16">
+                <small>Sobrenome</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="campo">
+        <label for="email">Seu E-mail</label>
+        <input type="email" id="email" name="email" size="30" placeholder="ex: contato@upmartinopolis.com">
+    </div>
+
+    <div class="campo">
+        <span class="titulo-campo">Nome do Destinatário:</span>
+        <div class="grupo">
+            <div class="sub">
+                <input type="text" name="dest-nome" size="10">
+                <small>Nome</small>
+            </div>
+            <div class="sub">
+                <input type="text" name="dest-sobrenome" size="16">
+                <small>Sobrenome</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="campo">
+        <label for="dest-email">E-mail do Destinatário:</label>
+        <input type="email" id="dest-email" name="dest-email" size="30" placeholder="ex: contato@upmartinopolis.com">
+    </div>
+
+    <div class="campo">
+        <span class="titulo-campo">Endereço do Destinatário</span>
+        <div class="grupo coluna">
+            <div class="sub">
+                <input type="text" name="rua" size="40">
+                <small>Rua e número</small>
+            </div>
+            <div class="sub">
+                <input type="text" name="bairro" size="40">
+                <small>Bairro</small>
+            </div>
+            <div class="grupo">
+                <div class="sub">
+                    <input type="text" name="cidade" size="18">
+                    <small>Cidade</small>
+                </div>
+                <div class="sub">
+                    <input type="text" name="estado" size="18">
+                    <small>Estado</small>
+                </div>
+            </div>
+            <div class="grupo">
+                <div class="sub">
+                    <input type="text" name="cep" size="18">
+                    <small>CEP</small>
+                </div>
+                <div class="sub">
+                    <select name="pais">
+                        <option>Brazil</option>
+                        <option>Portugal</option>
+                        <option>Argentina</option>
+                    </select>
+                    <small>País</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="campo em-cima">
+        <span class="titulo-campo">Telefone / Celular</span>
+        <div class="grupo">
+            <div class="sub">
+                <input type="text" name="ddd" size="14">
+                <small>Código</small>
+            </div>
+            <span class="traco">-</span>
+            <div class="sub">
+                <input type="text" name="telefone" size="18">
+                <small>Número</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="campo">
+        <label for="tema">Tema do vale</label>
+        <select id="tema" name="tema">
+            <option value="">Please Select</option>
+            <option>Aniversário</option>
+            <option>Natal</option>
+            <option>Agradecimento</option>
+        </select>
+    </div>
+
+    <div class="campo">
+        <label for="valor">Valor do Vale</label>
+        <div class="sub">
+            <input type="text" id="valor" name="valor" size="14" placeholder="R$ 32,00">
+            <small>Valor entre R$ 32,00 e R$ 1.000,00</small>
+        </div>
+    </div>
+
+    <div class="campo">
+        <label for="divulgar">Divulgar seu Nome?</label>
+        <select id="divulgar" name="divulgar">
+            <option value="">Please Select</option>
+            <option>Sim</option>
+            <option>Não</option>
+        </select>
+    </div>
+
+    <div class="campo em-cima">
+        <label for="obs">Observações:</label>
+        <textarea id="obs" name="obs"></textarea>
+    </div>
+
+    <div class="campo">
+        <span class="titulo-campo">Digite a imagem</span>
+        <div class="captcha">
+            <div class="captcha-imagem"></div>
+            <input type="text" name="captcha">
+        </div>
+    </div>
+
+    <button type="submit">Enviar</button>
+
+    <p class="aviso">
+        Você receberá em seu e-mail o boleto referente ao valor que você escolheu o vale-presentes.
+        Esse e-mail pode demorar até 24h para ser enviado. Qualquer dúvida entre em contato com
+        nossa equipe no e-mail: contato@upmartinopolis.com
+    </p>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+  <div class="Cabecalho">
+  <h1>Formulário</h1>
+  <h2>Preencha os campos abaixo</h2>
+  </div>  
+  <div class="formulario">
+  <form action=""method="POST"> <!-- POST / GET-->
+
+
+
+<div>
+  <label for="sizesInputSmall" class="form-label">Nome Completo</label>
+  <input class="form-control form-control-sm" type="text" id="sizesInputSmall" placeholder="digite o  nome Completo do usuário" aria-label="digite o  nome Completo do usuário">
+</div>
+<div>
+  <label for="sizesInputDefault" class="form-label">Cidade</label>
+  <input class="form-control" type="text" id="sizesInputDefault" placeholder="digite a sua cidade" aria-label="Default input example">
+</div>
+<div>
+  <label for="sizesInputLarge" class="form-label">E-mail</label>
+  <input class="form-control form-control-lg" type="text" id="sizesInputLarge" placeholder="digite o e-mail do usuário" aria-label="Large input example">
+</div>
+
+ <div>
+  <label for="sizesInputLarge" class="form-label">Senha de Acesso</label>
+  <input class="form-control form-control-lg" type="text" id="sizesInputLarge" placeholder="digite a senha de acesso" aria-label="Large input example">
+</div>
+
+ <div class="campo">
+<label for="exampleFormControlInput" class="form-label mb-2">Data de Nascimento</label>
+<input type="date" class="form-control" id="exampleFormControlInput" placeholder="digite a data de nascimento">
+ </div>
+
+<div class="campo">
+  <label for="sizesInputLarge" class="form-label">Telefone de Contato</label>
+  <input class="form-control form-control-lg" type="text" id="sizesInputLarge" placeholder="(##) #####-####" aria-label="Large input example">
+</div>
+
+
+<div class="form-field">
+  <label for="exampleFormControlSelect2" class="form-label">Estado</label>
+  <select class="form-control" id="exampleFormControlSelect2">
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="SP">São Paulo</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="CE">Ceará</option>
+  </select>
+</div>
+
+
+
+<div class="form-group">
+  <label class="form-label">Turno de preferência</label>
+  <div class="form-field">
+    <input type="radio" id="fieldGroupRadio1" class="radio" name="fieldGroupRadio" required />
+    <label for="fieldGroupRadio1">Manhã.</label>
+  </div>
+  <div class="form-field">
+    <input type="radio" id="fieldGroupRadio2" class="radio" name="fieldGroupRadio" required />
+    <label for="fieldGroupRadio2">Tarde.</label>
+  </div>
+  <div class="form-field">
+    <input type="radio" id="fieldGroupRadio2" class="radio" name="fieldGroupRadio" required />
+    <label for="fieldGroupRadio2">Noite.</label>
+  </div>
+
+
+
+<div class="form-group">
+  <label class="form-label">Àrea de Interesse</label>
+  <div class="form-field">
+    <input type="radio" id="fieldGroupRadio1" class="radio" name="fieldGroupRadio" required />
+    <label for="fieldGroupRadio1">Tecnologia.</label>
+  </div>
+  <div class="form-field">
+    <input type="radio" id="fieldGroupRadio2" class="radio" name="fieldGroupRadio" required />
+    <label for="fieldGroupRadio2">Design.</label>
+  </div>
+  <div class="form-field">
+    <input type="radio" id="fieldGroupRadio2" class="radio" name="fieldGroupRadio" required />
+    <label for="fieldGroupRadio2">Marketing.</label>
+  </div>
+
+
+   <div class="campo">
+ <label for="imagem">Escolha a foto do usuário</label>
+<input type="file" name="imagem" placeholder="Selecione uma imagem" accept="image/png, image/jpeg, video/mp3" id="imagem">
+ 
+</div>
+
+<div class="campo">
+    <label for="obs">Observações</label>
+    <textarea id="obs" name="obs" rows="3" size="40"
+     placeholder=" Escreva aqui sue comentários...">
+    </textarea>
+    </div>
+
+     <div class="botao">
+    <button type="button" class="btn">Enviar</button>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+   
+
+
+ <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>     
+ </div>
+</form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+
+body {
+  background-color: #fbc520;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 520px;
+  margin: 20px auto;
+  padding: 20px 50px;
+  border-radius: 15px;
+}
+
+.campo {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.campo > label,
+.titulo-campo {
+  width: 143px;
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+
+.opcoes label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: normal;
+}
+
+.opcoes input {
+  margin-right: 8px;
+}
+
+textarea {
+  width: 255px;
+  height: 62px;
+}
+
+button {
+  margin-left: 143px;
+  padding: 6px 14px;
+  background-color: #f4f4f4;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+html {
+  background-color: #3f3f3f;
+}
+

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel:wght@400..900&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #d592f0;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /*Altura mínima da da página - vh - tamanho  responsividade*/
+    box-sizing: border-box; /* caxia para formulário*/
+    display: flex; /* flexivel - ajusta o tamanho do campo de acordo com a tela*/
+    flex-direction: column; /* coluna - alinha os elementos em coluna*/
+    align-items: center; /* centraliza os elementos*/
+}
+ h1{ padding-top: 20px;
+     margin: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 80px;
+
+ }
+
+
+
+
+ h2 {
+    padding-top: 20px;
+     margin: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+ }
+
+ .campo {
+    display: flex;/* flexivel - ajusta o tamanho do campo de acordo com a tela*/
+    flex-direction: column; /* coluna - alinha os elementos em coluna*/
+ } 
+ .formulario {
+   background-color: #b683df;
+   border: 1px solid #000000;
+   padding: 50px 100px;
+   border-radius: 35px;
+   color: #000000;
+   flex-direction: column;
+   max-width: 600px;
+    
+ }
+
+ .batao{
+     padding-top: 50px;
+     display: flex;
+    justify-content: center; /* centraliza o botão*/
+}
+
+.button {
+    background-color: #b230e6;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer; /* transforma o cursor em uma mãozinha*/
+    font-size: 15px;
+}
+
+input{
+      padding: 10px 10px;
+      border-radius: 10px;
+      border:1px solid #000000;
+
+}
+
+select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:1px solid #000000;
+}
+button:hover {
+    transition: background-color 0.4s ease, color 0.4s ease,border 0.3s ease;
+    background-color: #8c70ac;
+    color: #ffffff;
+}
+    
+#imagem{
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+#imagem::file-selector-button{
+    margin-right: 10px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: aliceblue;
+}
